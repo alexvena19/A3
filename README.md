@@ -1,5 +1,7 @@
 # A3
 
+YOUTUBE LINK: https://youtu.be/_TSsFsuIMoo
+
 SETUP INSTRUCTIONS:
 1. Start by installing psycopg2 if not already installed. In your terminal, enter 'pip install psycopg2'
 2. Create the students table in your database on PgAdmin 4.
