@@ -13,24 +13,18 @@ Running instructions:
 
 Function explanations:
 connection_to_db():
-# connects to the PostgreSQL database. It uses the psycopg2 driver to 
-# connect to created a3 database
+connects to the PostgreSQL database. It uses the psycopg2 driver to connect to created a3 database
 
 getAllStudents():
-# function to retrieve all students from the students table and print
-# them out in an organized table format. Cursor object is created and executes the
-# SQL query to selects all students from the table.
+function to retrieve all students from the students table and print them out in an organized table format. Cursor object is created and executes the SQL query to selects all students from the table.
 
 addStudent(first_name, last_name, email, enrollment_date):
-# adds student to the student table, accepting appropriate paramaters for input
-# connects to database and creates a cursor, and executes the INSERT INTO query
-# to add the student into the table
+adds student to the student table, accepting appropriate paramaters for input connects to database and creates a cursor, and executes the INSERT INTO query to add the student into the table
 
 updateStudentEmail(student_id, new_email):
-# updates an exisiting students email based on student ID. If no student
-# exists w/ that ID, error message is printed out
+updates an exisiting students email based on student ID. If no student exists w/ that ID, error message is printed out
 
 deleteStudent(student_id):
-# deletes a student from the database table, based on student ID.
+deletes a student from the database table, based on student ID.
 
 
